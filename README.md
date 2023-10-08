@@ -22,9 +22,8 @@ and permissions.
 ### User Registration
 Registration System: Users can register for an account to access the website's features
 Registration Form: A user-friendly registration form is provided, including fields for 
- username, password, email, full name, and other required details.
-Validation Checks: The system enforces validation checks during registration to ensure 
- data accuracy and security:
+username, password, email, full name, and other required details.
+Validation Checks: The system enforces validation checks during registration to ensuredata accuracy and security:
 Username Validation: Checks for uniqueness and valid characters.
 Password Validation: Ensures password complexity and security.
 Email Validation: Validates the email format and uniqueness.
@@ -42,13 +41,11 @@ Administrator Role: Administrators have elevated privileges, enabling them to pe
  Approve or reject items, categories, and comments.
 	
  User Role: Regular users have limited access until their actions are approved by 
- administrators:
- User Registration: Users can register for an account.
+ administrators: User Registration: Users can register for an account.
  Item Submission: Users can add items to the system, but these items are not immediately visible until approved.
  Comment Submission: Users can post comments, but comments may require approval before becoming visible.
  Approval Process: The system includes an approval process for items, categories, and 
- comments:
- Item and Category Approval: Administrators review and approve or reject items and categories to ensure quality and compliance with guidelines.
+ comments:Item and Category Approval: Administrators review and approve or reject items and categories to ensure quality and compliance with guidelines.
  Comment Approval: Administrators can approve or reject user comments to maintain a positive and safe user experience.
 
 ### User Experience
