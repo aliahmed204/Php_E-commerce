@@ -1,0 +1,22 @@
+// relation schema for one table
+// relation schema  with domain without constriants
+users(UserID,UserName,Email,FullName,Passwrod,GroupID,Trust Status,Reg Status)
+// realtional model notation 
+users.Email  ÚÇæÒ ÇáÇíãíá Çááì ÊÈÚ ÇáÌÏæá ÈÊÇÚ ÇáíæÓÑÒ
+  realtion.attribute
+// relation state
+ÇáÌÏæá Çááì ÈÙåÑ İì ÇáÏÇÊÇÈíÓ
+t1= <(1 , aliamed204,ali@gmial.com,ali ahme mohamed, #232!@21, 1 ,1 ,1 )
+t2= <2 , asmaaamed204,asmaa@gmial.com,asmaa ahmed , #23safa21, 1 ,1 ,1 )
+
+// relatioal database schema 
+N-tubles r = {t1 , t2 , t3}
+2 = [  (1 , aliamed204,ali@gmial.com,ali ahme mohamed, #232!@21, 1 ,1 ,1 )
+          2 , asmaaamed204,asmaa@gmial.com,asmaa ahme mohamed, #23safa21, 1 ,1 ,1 )
+       ]
+
+
+//  relation schema with domain out constriants
+users(UserID:int,UserName:varchar,Email:varchar,FullName:varchar,Passwrod:varchar,GroupID:int,Trust Status:int,Reg Status:int)
+
+

@@ -1,0 +1,33 @@
+function print_array($key){
+      static $arr = array(
+	'name' => 'ali ',
+	'age' => ' 24',
+	'from' => 'cario',	        
+             );
+        return $arr[$key];
+}
+// first time i invoked it it stores
+        print_array('name' ) ==> ali
+// when i invke it again it retrive fast and well not stored again becuase it already stored
+        print_array('age' )    ==> 24
+        print_array('from' )  ==> cario
+
+
+
+// i can pass array to this function 
+// cannot be static 
+      function print_array(array $array,$key){
+     	$arr = $array ;
+   	 return $arr[$key];
+         }
+
+     $a = [
+               '1'=>'ali',
+               '2'=>'ahmed',
+                '3'=>'mo'
+     ];
+echo  '<br>'. print_array($a,1);
+echo  '<br>'. print_array($a,2);
+echo  '<br>'. print_array($a,3);
+
+

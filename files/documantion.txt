@@ -1,0 +1,3 @@
+// noNavBar class
+i used it to inclued naber in page that i want only
+

@@ -1,0 +1,9 @@
+So essentially, this code sets the value of the $do variable to the value of the $_GET['do'] query parameter in the URL,
+or to the string 'Manage' if the query parameter is not set.
+This allows the code to determine which action to perform based on the value of the $_GET['do'] parameter.
+
+$do = isset($_GET['do']) ? $_GET['do'] : 'Manage';
+The isset() function checks if the $_GET['do'] variable is set (i.e., if it exists in the URL).
+If $_GET['do'] is set, the ternary operator returns its value ($_GET['do']).
+If $_GET['do'] is not set, the ternary operator returns the string 'Manage'.
+The resulting value (either $_GET['do'] or 'Manage') is assigned to the $do variable.
